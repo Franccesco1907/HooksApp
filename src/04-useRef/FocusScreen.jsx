@@ -14,6 +14,8 @@ export const FocusScreen = () => {
     <>
       <h1>FocusScreen</h1>
       <hr />
+      // Si tenemos varios inputs, no conviene usar el querySelector
+      // es mejor usar el useRef
       <input
         ref={inputRef}
         type="text"
