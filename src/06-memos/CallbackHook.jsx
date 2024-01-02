@@ -4,7 +4,7 @@ import { ShowIncrement } from "./ShowIncrement"
 export const CallbackHook = () => {
   const [counter, setCounter] = useState(10)
   // Memoriza la función
-  
+  // useCallback sirve para memorizar funciones
   const incrementFather = useCallback((value) => {
     console.log('incrementFather')
     // El counter está memorizado, por lo que no se vuelve a renderizar 

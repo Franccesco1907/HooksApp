@@ -14,7 +14,7 @@ export const MemoHook = () => {
   const [show, setShow] = useState(true)
 
   const memorizedValue = useMemo(() => {
-    heavyProcess(counter)
+    return heavyProcess(counter)
   }, [counter])
 
   return (
