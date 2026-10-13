@@ -1,8 +1,5 @@
-# React + Vite
+# HooksApp
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Ejercicios de hooks de React y React Router. `src/main.jsx` monta `09-useContext/MainApp`; cambia su import/render para explorar los otros ejemplos numerados.
+Ejecuta `npm ci` y `npm run dev`; Vite muestra la URL local.
+Comprobaciones: `npm run build` y `npm run lint`. No hay suite de pruebas configurada; el ejemplo de tareas persiste en `localStorage`.
